@@ -72,6 +72,17 @@ code location: Guardains/Npc/NpcEnemy.cs
 
 code link: https://github.com/RH-Games/Guardains/blob/main/Npc/NpcEnemy.cs
 
+## User interface programming script
+
+The user interface is made up of these scripts 
+
+- Quest Goal: sets up the quest goal and checks when it has been reached
+- Quest Handler: used to show the Quest information and update when an npc has been killed
+- Main menu: functions call the right menus and button functions
+- Healthbar: is used to set and update the player health which is linked to a UI slider -> code located in Guardains/Player/HealthBar.cs
+code location: Guardains/Ui/
+code link: https://github.com/RH-Games/Guardains/tree/main/Ui
+
 ## Weapon Collider
 
 Weapon Collider script is called when an animation is played to check if it hit an enemy. 
