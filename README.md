@@ -14,6 +14,19 @@ For the player, there are several different scripts for different functions
 
 Player Script location: Guardains/Player/
 
+### Player manager
+
+The player-manager script is used to run all functions for our character
+- awake: initialized on scene load and sets up variables to get components 
+- update: runs every game input manager input
+- fixed update: in fixed it calls player movement movement 
+- last update: called after each frame is the camera movement
+- Player damage: used to damage the player when hit
+- Player dead: Runs when the player is dead, setting components to false, and calls the game over.
+
+code location: Guardains/Player/PlayerManger.cs
+code link https://github.com/RH-Games/Guardains/blob/main/Player/PlayerManger.cs
+
 ### Player movement
 has all the player movements functions like walking, running, and rotating
 
@@ -33,9 +46,8 @@ input manager contacts input mapping from the player and functions to call when 
   - Collision block
 - Inputs: all input functions are stored and called from input when that is called
       
-
-code location: BreadcrumbsGuardains/Player/InputManager.cs
-code link: BreadcrumbsGuardains/Player/InputManager.cs
+code location: Guardains/Player/InputManager.cs
+code link: (https://github.com/RH-Games/Guardains/blob/main/Player/InputManager.cs)
 
 ## Ai state machine script
 The npc ai uses a state machine that changes the behavior of enemies depending on where the player is. 
