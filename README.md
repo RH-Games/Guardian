@@ -8,19 +8,19 @@ https://ryry199316.wixsite.com/ryan-hughes/third-year-project
 see below is how to view key scripts to the game.
 I highlighted different scripts into sections with small descriptions and file locations on how to find them; as well as a link for easier access.
 
-## player script
+## Player script
 
 For the player, there are several different scripts for different functions
 
 Player Script location: Guardains/Player/
 
-## PlayerMovement
+### Player movement
 has all the player movements functions like walking, running, and rotating
 
 code location: Player/PlayerMovement.cs
 code link: https://github.com/RH-Games/Guardains/blob/main/Player/PlayerMovement.cs
 
-## input manager
+### input manager
 
 input manager contacts input mapping from the player and functions to call when the button is pressed. 
 - movement input: to move the player and camera
@@ -80,7 +80,9 @@ The user interface is made up of these scripts
 - Quest Handler: used to show the Quest information and update when an npc has been killed
 - Main menu: functions call the right menus and button functions
 - Healthbar: is used to set and update the player health which is linked to a UI slider -> code located in Guardains/Player/HealthBar.cs
+  
 code location: Guardains/Ui/
+
 code link: https://github.com/RH-Games/Guardains/tree/main/Ui
 
 ## Weapon Collider
